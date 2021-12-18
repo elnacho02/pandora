@@ -2,7 +2,7 @@ import React from 'react'
 import s from "./First.module.css"
 
 
-function First() {
+function First({setIsOpen, isOpen}) {
     return (
         <div className={s.container}>
             <div className={s.text}>
@@ -13,7 +13,7 @@ function First() {
                 <p>
                     Get a zero-waste natural energy boost with MateCaps and quit sugary cafffeinated drinks.
                 </p>
-                <button>Lorem ips</button>
+                <button onClick={()=>setIsOpen(true)}>Lorem ips</button>
             </div>
             <div className={s.img}>
                 <img src={require("../../media/books.png")} alt="books" width="100%"/>
