@@ -25,9 +25,7 @@ function Fourth() {
                     <img src={require("../../media/Frame 2.png")} alt="nose" width="70%" />
                 </div>
             </div>
-            <div className={s.experts}>
-                
-            </div>
+            
         </div>
     )
 }

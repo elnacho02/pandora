@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import './App.css'
 import Alert from './components/alert/Alert'
+import Fifth from './components/fifth/Fifth'
 import First from './components/first/First'
 import Fourth from './components/fourth/Fourth'
 import Modal from './components/Modal'
@@ -20,6 +21,7 @@ function App() {
       ) : null}
       <Second/>
       <Fourth/>
+      <Fifth/>
     </div>
   )
 }
