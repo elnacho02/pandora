@@ -18,7 +18,7 @@ function First({setIsOpen, isOpen}) {
             <div className={s.img}>
                 <img src={require("../../media/books.png")} alt="books" width="100%"/>
             </div>
-            <svg viewBox="0 0 500 150" preserveAspectRatio="none" style={{"height": "100px", "width": "100%"}}><path d="M0.28,150.50 C138.54,145.56 353.55,158.39 504.79,88.33 L500.00,150.00 L0.28,150.50 Z"  style={{"stroke": "none", "fill": "#fff"}}></path></svg>
+            <svg viewBox="0 0 500 150" preserveAspectRatio="none" style={{"height": "100px", "width": "100%"}}><path d="M0.28,150.50 C138.54,145.56 353.55,158.39 504.79,88.33 L500.00,150.00 L0.28,150.50 Z"  style={{"stroke": "none", "fill": "#FFFBF5"}}></path></svg>
         </div>
     )
 }

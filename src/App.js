@@ -2,8 +2,10 @@ import { useState } from 'react'
 import './App.css'
 import Alert from './components/alert/Alert'
 import First from './components/first/First'
+import Fourth from './components/fourth/Fourth'
 import Modal from './components/Modal'
 import Navbar from './components/navbar/Navbar'
+import Second from './components/second/Second'
 
 function App() {
   const [isOpen, setIsOpen] = useState(false)
@@ -16,6 +18,8 @@ function App() {
           <Alert setIsOpen={setIsOpen} />
         </Modal>
       ) : null}
+      <Second/>
+      <Fourth/>
     </div>
   )
 }
