@@ -1,0 +1,29 @@
+.container {
+  display: flex;
+  width: 70%;
+}
+
+.containerSecond{
+ width: 70%;
+ display: flex;
+ justify-content: flex-end;
+ 
+}
+
+
+.textSide > h2 {
+ color: #fb6340;
+}
+
+.mainContainer {
+ display: flex;
+ justify-content: center;
+}
+
+
+.textSide {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 30%;
+}
