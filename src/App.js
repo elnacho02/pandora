@@ -1,6 +1,10 @@
 import { useState } from 'react'
+
 import './App.css'
 import Alert from './components/alert/Alert'
+import One from './components/carousel/One.jsx'
+import Two from './components/carousel/Two.jsx'
+import Three from './components/carousel/Three.jsx'
 import Fifth from './components/fifth/Fifth'
 import First from './components/first/First'
 import Fourth from './components/fourth/Fourth'
@@ -19,9 +23,12 @@ function App() {
           <Alert setIsOpen={setIsOpen} />
         </Modal>
       ) : null}
-      <Second/>
-      <Fourth/>
-      <Fifth/>
+      <Second />
+      <One />
+      <Two />
+      <Three />
+      <Fourth />
+      <Fifth />
     </div>
   )
 }
